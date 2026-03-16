@@ -1,6 +1,5 @@
 # Cyber Threat Playbook
 
-[![License](https://img.shields.io/github/license/secwexen/cyber-threat-playbook?branch=main)](https://github.com/secwexen/cyber-threat-playbook/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/secwexen/cyber-threat-playbook)
 
 A comprehensive Cyber Threat Playbook providing MITRE ATT&CK-based attack scenarios, detection rules, proof-of-concept (PoC) scripts, and lab walkthroughs.
