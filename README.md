@@ -17,6 +17,14 @@ It provides a structured collection of:
 
 This repository is designed to **demonstrate professional cybersecurity skills**, including threat hunting, incident response, and pentesting workflows, in a safe and controlled environment.
 
+## Features
+
+- MITRE ATT&CK–based attack scenarios
+- Sigma / YARA / Suricata detection rules
+- PoC examples for isolated lab environments
+- Log analysis samples
+- Threat hunting practice workflows
+
 ## Overview
 
 **Cyber Threat Playbook** is organized to give users a clear and practical view of real-world cybersecurity workflows:
