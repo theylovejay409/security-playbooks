@@ -56,6 +56,20 @@ cd cyber-threat-playbook
 
 See the [quick_start.md](docs/quick_start.md) file for full details.
 
+## Running the Examples
+
+This repository includes several educational scripts and detection rules.  
+Below are the commands used to run each component.
+
+See the [RUN_COMMANDS.md](docs/RUN_COMMANDS.md) file for full details.
+
+### Quick Start (Single Command)
+
+To quickly test the project, run:
+```
+python parser.py
+```
+
 ## Ethical Use
 
 All tools in this repository are developed **strictly for educational and ethical purposes**.  
