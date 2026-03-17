@@ -27,6 +27,39 @@ This repository is designed to **demonstrate professional cybersecurity skills**
 - **Examples:** Sample outputs, screenshots, and logs to visualize results.  
 - **Docs & Tools:** Quick Start guides, architecture explanations, and optional helper scripts to support learning and experimentation.  
 
+## Threat Model
+
+This playbook assumes a realistic enterprise environment and adversary behavior. It is designed for educational and lab purposes only.
+
+- **Target Environment:** Windows Active Directory (Enterprise Network)
+- **Log Sources:** 
+  - Windows Event Logs (Security, Sysmon)
+  - Network Traffic (PCAP)
+  - Endpoint Detection & Response (EDR) telemetry
+- **Adversary Profile:** APT-like actor executing common enterprise attacks
+- **Attack Surface:** Endpoints, domain controllers, user workstations
+- **Attack Vectors Covered:** 
+  - Command & scripting interpreter execution (T1059)
+  - Phishing and social engineering (T1566)
+  - Malware execution and lateral movement
+- **Assumptions:**
+  - Logging and monitoring are enabled (Sysmon, Security Logs)
+  - SIEM or log aggregation is available
+  - Scenarios run in isolated lab environments only
+- **Goals:** 
+  - Demonstrate detection engineering and threat hunting workflows
+  - Provide hands-on lab exercises for portfolio and learning purposes
+
+## Scenarios
+
+This repository contains multiple playbook-style scenarios:
+
+| Scenario | Type | MITRE ATT&CK | Playbook File |
+|----------|------|--------------|---------------|
+| PowerShell Execution | T1059 | Command & Scripting Interpreter | [T1059_PowerShell_Execution.md](scenarios/T1059_PowerShell_Execution.md) |
+| Malware Analysis | Malware | Various | [scenarios/malware_analysis/README.md](scenarios/malware_analysis/README.md) |
+| Phishing Simulation | Social Engineering | T1566 | [scenarios/phishing_simulation/README.md](scenarios/phishing_simulation/README.md) |
+
 ## Features
 
 - MITRE ATT&CK–based attack scenarios
