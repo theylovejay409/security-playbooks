@@ -1,11 +1,11 @@
 # Architecture Overview
 
-The **Cyber Threat Playbook** is structured to provide a clear, modular, and professional layout for cybersecurity research, lab simulations. The architecture is designed for educational, hands-on use while maintaining real-world workflow relevance.
+The **Security Playbook** is structured to provide a clear, modular, and professional layout for cybersecurity research, lab simulations. The architecture is designed for educational, hands-on use while maintaining real-world workflow relevance.
 
 ## Repository Structure
 
 ```
-cyber-threat-playbook/
+security-playbook/
 ├─ detection-rules/    # Sigma, YARA, Suricata rules for threat detection
 ├─ scenarios/          # MITRE ATT&CK-based attack simulations
 ├─ labs/               # PoC scripts and lab walkthroughs
