@@ -2,6 +2,12 @@
 
 ## New Lab & Scenario Commands
 
+### Sigma Parser Script
+
+```
+python sigma_parser.py
+```
+
 ### Suricata T1059 logs
 
 ```
