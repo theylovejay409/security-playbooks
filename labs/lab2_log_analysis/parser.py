@@ -1,9 +1,7 @@
 import json
 from pathlib import Path
 
-LOG_FILES = [
-    Path("examples/..."),
-]
+LOG_FILE = Path("examples/alware_log_example.txt")
 
 def parse_log_line(line: str) -> dict | None:
     line = line.strip()
@@ -14,15 +12,15 @@ def parse_log_line(line: str) -> dict | None:
     except json.JSONDecodeError:
         return None
 
-def process_log_file(log_file: Path) -> None:
-    if not log_file.exists():
-        print(f"[!] Log file not found: {log_file}")
+def main() -> None:
+    if not LOG_FILE.exists():
+        print(f"[!] Log file not found: {LOG_FILE}")
         return
 
-    print(f"\n[+] Parsing log file: {log_file}")
+    print(f"[+] Parsing log file: {LOG_FILE}")
     suspicious = []
 
-    with log_file.open("r", encoding="utf-8") as f:
+    with LOG_FILE.open("r", encoding="utf-8") as f:
         for line in f:
             entry = parse_log_line(line)
             if not entry:
@@ -34,10 +32,6 @@ def process_log_file(log_file: Path) -> None:
     print(f"[+] Found {len(suspicious)} suspicious entries")
     for s in suspicious:
         print(f"- {s.get('timestamp')} | {s.get('event')} | {s.get('severity')}")
-
-def main() -> None:
-    for log_file in LOG_FILES:
-        process_log_file(log_file)
 
 if __name__ == "__main__":
     main()
