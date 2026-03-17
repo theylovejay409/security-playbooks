@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-LOG_FILE = Path("examples/alware_log_example.txt")
+LOG_FILE = Path("examples/malware_log_example.txt")
 
 def parse_log_line(line: str) -> dict | None:
     line = line.strip()
