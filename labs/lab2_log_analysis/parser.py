@@ -2,9 +2,7 @@ import json
 from pathlib import Path
 
 LOG_FILES = [
-    Path("../../examples/malware_log_example.txt"),
-    Path("../../examples/powershell_log_example.txt"),
-    Path("../../examples/phishing_log_example.txt"),
+    Path("examples/..."),
 ]
 
 def parse_log_line(line: str) -> dict | None:
