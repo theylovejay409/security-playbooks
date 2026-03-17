@@ -57,8 +57,8 @@ This repository contains multiple playbook-style scenarios:
 | Scenario | Type | MITRE ATT&CK | Playbook File |
 |----------|------|--------------|---------------|
 | PowerShell Execution | T1059 | Command & Scripting Interpreter | [T1059_PowerShell_Execution.md](scenarios/T1059_PowerShell_Execution.md) |
-| Malware Analysis | Malware | Various | [scenarios/malware_analysis/README.md](scenarios/malware_analysis/README.md) |
-| Phishing Simulation | Social Engineering | T1566 | [scenarios/phishing_simulation/README.md](scenarios/phishing_simulation/README.md) |
+| Malware Analysis | Malware | Various | [malware_analysis/README.md](scenarios/malware_analysis/README.md) |
+| Phishing Simulation | Social Engineering | T1566 | [phishing_simulation/README.md](scenarios/phishing_simulation/README.md) |
 
 ## Features
 
