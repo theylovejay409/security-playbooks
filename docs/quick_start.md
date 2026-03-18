@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-This guide will help you quickly set up and start using the **Security Playbook** for educational and lab purposes.
+This guide will help you quickly set up and start using the **Security Playbooks** for educational and lab purposes.
 
 ## 1. Prerequisites
 
@@ -15,8 +15,8 @@ Before starting, make sure you have:
 ## 2. Clone the Repository
 
 ```bash
-git clone https://github.com/secwexen/security-playbook.git
-cd security-playbook
+git clone https://github.com/secwexen/security-playbooks.git
+cd security-playbooks
 ```
 
 ## 3. Install Dependencies
