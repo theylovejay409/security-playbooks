@@ -127,6 +127,16 @@ They are intended to be used for:
 
 I do **not** endorse or support illegal activity of any kind.
 
+## Docs & Resources
+
+Detailed guides and references are also available in the repository:
+
+- [Quick Start](docs/quickstart.md)
+- [Roadmap & Milestones](docs/roadmap.md)
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
+- [Security Policy](SECURITY.md)
+
 ## License
 
 Copyright © 2026 secwexen.
