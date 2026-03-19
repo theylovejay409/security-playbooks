@@ -99,7 +99,7 @@ Please read:
 
 Pull requests are welcome.
 
-## 7. Maintainer
+## Maintainer
 
 Project Maintainer: **Secwexen**  
 GitHub: [https://github.com/secwexen](https://github.com/secwexen)
