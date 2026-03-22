@@ -27,7 +27,8 @@ Some PoC scripts may require additional Python packages. You can install them us
 pip install -r requirements.txt
 ```
 
-> Note: Create a virtual environment to avoid conflicts with your system Python.
+> [!NOTE]
+> Create a virtual environment to avoid conflicts with your system Python.
 
 ```bash
 python -m venv venv
