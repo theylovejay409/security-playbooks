@@ -55,6 +55,7 @@ cd labs/lab1_network_scan
 python scan.py
 ```
 
+> [!NOTE]
 > Always ensure you are in a **safe lab environment** before executing any scripts.
 
 ## 6. Learning Workflow
