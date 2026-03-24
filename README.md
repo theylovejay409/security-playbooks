@@ -114,7 +114,7 @@ Security Playbooks requires a minimal and modern environment to run detection ru
 - **YARA** (Malware pattern matching)  
 - **Sigma CLI** (Rule conversion)  
 - **Wireshark / tcpdump** (PCAP analysis)  
-- **Python libraries** (installed via [requirements.txt](requirements.txt))
+- **Python libraries** (installed via [requirements.txt](requirements.txt) and [dev-requirements.txt](dev-requirements.txt))
 
 ## Quick Start
 
