@@ -96,7 +96,7 @@ Security Playbooks supports a range of practical cybersecurity workflows and rea
 - **Adversary Emulation (Lab Only)** – Reproduce attacker techniques to validate defensive capabilities  
 - **Training & Skill Development** – Strengthen technical skills through hands-on, scenario-based exercises  
 
-## Installation Requirements
+## Installation
 
 Security Playbooks requires a minimal and modern environment to run detection rules, labs, and analysis tools.
 
