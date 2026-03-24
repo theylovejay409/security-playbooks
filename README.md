@@ -88,7 +88,7 @@ The Security Playbooks is intended for cybersecurity expert who want to practice
 - **SOC Analysts** – for detection engineering, alert analysis, and log investigation  
 - **Threat Hunters** – for hypothesis-driven hunting and adversary behavior analysis  
 - **Blue Team Engineers** – for building and testing detection rules (Sigma, YARA, Suricata)  
-- **Cybersecurity Students** – for hands-on learning and portfolio development  
+- **Cybersecurity Experts** – for hands-on use and portfolio development  
 - **Red Teamers (lab-only)** – for adversary emulation and controlled attack simulations  
 
 ## Installation Requirements
