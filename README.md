@@ -1,7 +1,7 @@
 # Security Playbooks
 
 <p align="center">
-<img src="assets/images/security-playbooks-logo.png" width="700" alt="Security Playbooks Logo" loading="lazy" decoding="async">
+<img src="assets/images/security-playbooks-logo.png" width="600" alt="Security Playbooks Logo" loading="lazy" decoding="async">
 </p>
 
 **Open‑source ATT&CK scenarios, detection rules, and practical blue‑team labs.**
